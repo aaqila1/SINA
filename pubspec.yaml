@@ -1,0 +1,195 @@
+name: doctor_booking_app
+description: A new Flutter project.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.2
+  intl: ^0.16.1
+  animations: ^1.0.0+5
+  characters: ^1.0.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+     - assets/calcium.png
+     - assets/nat_medC.png #----------------------------------<<<<<<<<<<<<<<
+     - assets/biotin.png
+     - assets/zinc.png
+     - assets/vitamin_B1.png
+     - assets/vitamin_B2.png
+     - assets/vitamin_B12.png
+     - assets/vitamin_B6.png
+     - assets/vitamin_B3.png
+     - assets/vitamin_B9.png
+     - assets/vitamin_A.png
+     - assets/vitamin_E.png
+     - assets/vitamin_D.png
+     - assets/iron.png
+     - assets/phyco.png
+     - assets/head.png
+     - assets/eye.png
+     - assets/Mouth.png
+     - assets/chest.png
+     - assets/digestive.png
+     - assets/hands.png
+     - assets/leg.png
+     - assets/body.png
+     - assets/fainting.png
+     - assets/confusion.png
+     - assets/irritability.png
+     - assets/depression.png
+     - assets/fatigue.png
+     - assets/stress.png
+     - assets/anxiety.png
+     - assets/insomnia.png
+     - assets/seizures.png
+     - assets/alert.png
+     - assets/blind.png
+     - assets/dizziness.png
+     - assets/hair.png
+     - assets/hair_follicles.png
+     - assets/hair_fall.png
+     - assets/rash_face.png
+     - assets/dry_hair.png
+     - assets/brittle_hair.png
+     - assets/hair_loss.png
+     - assets/red_face.png
+     - assets/Acne.png
+     - assets/pale.png
+     - assets/Headache.png
+     - assets/eyebrow.png
+     - assets/dry_eye.png
+     - assets/puff.png
+     - assets/spot_eye.png
+     - assets/red_eye.png
+     - assets/wander.png
+     - assets/visual.png
+     - assets/errosion.png
+     - assets/loss.png
+     - assets/bleeding.png
+     - assets/dry.png
+     - assets/ulcer.png
+     - assets/crack.png
+     - assets/spot.png
+     - assets/fire.png
+     - assets/sensation.png
+     - assets/taste.png
+     - assets/swell.png
+     - assets/heart.png
+     - assets/short.png
+     - assets/fast.png
+     - assets/poor.png
+     - assets/nausea.png
+     - assets/swallowing.png
+     - assets/stomach.png
+     - assets/diarrhea.png
+     - assets/dirt.png
+     - assets/crawling.png
+     - assets/cramp.png
+     - assets/finger.png
+     - assets/infection.png
+     - assets/spoon.png
+     - assets/peeling.png
+     - assets/pricking.png
+     - assets/spots.png
+     - assets/tasteless.png
+     - assets/line.png
+     - assets/brown.png
+     - assets/tinghand.png
+     - assets/vertical.png
+     - assets/uneven.png
+     - assets/white.png
+     - assets/cold.png
+     - assets/pain.png
+     - assets/burn.png
+     - assets/walk.png
+     - assets/heel.png
+     - assets/tingfeet.png
+     - assets/coldf.png
+     - assets/bone.png
+     - assets/muscle.png
+     - assets/fracture.png
+     - assets/bloss.png
+     - assets/bbrittle.png
+     - assets/fat.png
+     - assets/sdamage.png
+     - assets/bruse.png
+     - assets/healing.png
+     - assets/weight.png
+     - assets/flame.png
+     - assets/rash.png
+     - assets/scale.png
+     - assets/musclepain.png
+     - assets/weightloss.png
+     - assets/sore.png
+     - assets/growth.png
+     - assets/weakness.png
+     - assets/anemic.png
+     - assets/vinfection.png
+     - assets/srash.png
+     - assets/infertility.png
+     - assets/unwell.png
+     - assets/weak.png
+     - assets/
+
+  #  - images/a_dot_ham.jpeg
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
